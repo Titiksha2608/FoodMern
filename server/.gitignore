@@ -1,5 +1,26 @@
-.env
-node_modules
+# Node modules
+node_modules/
+
+# Dependency lock files (optional, but recommended in some cases)
 package-lock.json
-package.json
+
+# Environment variable file
+.env
+
+# TypeScript configuration
 tsconfig.json
+
+# Log files (if any)
+*.log
+
+# Build output
+/dist
+/build
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (optional)
+.vscode/
+.idea/
